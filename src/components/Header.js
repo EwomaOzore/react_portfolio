@@ -14,13 +14,14 @@ const Header = () => {
                         <li><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#certifications">Didi</a></li>
                         <li><a href="#Projects">Projects</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <FontAwesomeIcon className='fas' icon={faXmark} />
                     </ul>
                     <FontAwesomeIcon className='fas' icon={faBars} />
                 </nav>
-                <div className='container1'>
+                <div className="container1">
                     <div className="header-text">
                         <h1>Hello, I'm <span className="name">Ewoma Ozore</span></h1>
                         <br />

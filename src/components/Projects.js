@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import img1 from '../images/project1.jpg';
+import img1 from '../images/gamebuddy.jpg';
 import img2 from '../images/project2.jpg';
 import img3 from '../images/project3.jpg';
 
@@ -46,13 +46,13 @@ const Projects = () => {
                         >
                             <SwiperSlide data-hash="slide1">
                                 <div className='projects_content'>
-                                    <img src={img1} alt='Project 1' />
+                                    <img src={img1} alt='Gamebuddy' />
 
                                     <div>
                                         <span className='projects_subtitle'>Gamebuddy Ecommerce</span>
                                         <h1 className='projects_title'>A Simple Ecommerce Website Built Using Next.js, React and Tailwind CSS</h1>
 
-                                        <a href='#' className='projects_button'>
+                                        <a href='https://gamebuddy.vercel.app/' className='projects_button'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
