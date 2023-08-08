@@ -52,7 +52,7 @@ const Projects = () => {
                                         <span className='projects_subtitle'>Gamebuddy Ecommerce</span>
                                         <h1 className='projects_title'>A Simple Ecommerce Website Built Using Next.js, React and Tailwind CSS</h1>
 
-                                        <a href='https://gamebuddy.vercel.app/' className='projects_button'>
+                                        <a href='https://gamebuddy.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
@@ -66,7 +66,7 @@ const Projects = () => {
                                         <span className='projects_subtitle'>Web</span>
                                         <h1 className='projects_title'>Modern Website</h1>
 
-                                        <a href='#' className='projects_button'>
+                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
@@ -80,7 +80,7 @@ const Projects = () => {
                                         <span className='projects_subtitle'>Web</span>
                                         <h1 className='projects_title'>Modern Website</h1>
 
-                                        <a href='#' className='projects_button'>
+                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
@@ -94,7 +94,7 @@ const Projects = () => {
                                         <span className='projects_subtitle'>Web</span>
                                         <h1 className='projects_title'>Modern Website</h1>
 
-                                        <a href='#' className='projects_button'>
+                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
