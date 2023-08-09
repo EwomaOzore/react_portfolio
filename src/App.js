@@ -8,8 +8,6 @@ import Footer from './components/Footer';
 import { Swiper } from 'swiper/react';
 import './App.css';
 
-
-
 const App = () => {
     return (
         <div>
