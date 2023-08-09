@@ -5,6 +5,10 @@ import testSvg3 from '../assets/javascript-1.svg';
 import testSvg4 from '../assets/react-2.svg';
 import testSvg5 from '../assets/bootstrap-5-1.svg';
 import testSvg6 from '../assets/cordova.svg';
+import testSvg7 from '../assets/tailwind-css-2.svg';
+import testSvg8 from '../assets/next-js.svg';
+import testSvg9 from '../assets/typescript.svg';
+import testSvg10 from '../assets/git-icon.svg';
 
 const About = () => {
     const [activeTab, setActiveTab] = useState('Education');
@@ -42,6 +46,10 @@ const About = () => {
                                 <img src={testSvg4} alt="React" />
                                 <img src={testSvg5} alt="Bootsrap" />
                                 <img src={testSvg6} alt="Cordova" />
+                                <img src={testSvg7} alt="Tailwind" />
+                                <img className='nextjs' src={testSvg8} alt="Next" />
+                                <img src={testSvg9} alt="TypeScript" />
+                                <img src={testSvg10} alt="Git" />
                             </div>
                         </div>
                         <div className={`tab-contents ${activeTab === 'Experience' ? 'active-tab' : ''}`} id="Experience">
