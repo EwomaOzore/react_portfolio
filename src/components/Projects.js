@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import img1 from '../images/gamebuddy.jpg';
-import img2 from '../images/project2.jpg';
+import img2 from '../images/swiftshop.jpg';
 import img3 from '../images/project3.jpg';
 
 const Projects = () => {
@@ -49,7 +49,7 @@ const Projects = () => {
                                     <img src={img1} alt='Gamebuddy' />
 
                                     <div>
-                                        <span className='projects_subtitle'>Gamebuddy Ecommerce</span>
+                                        <span className='projects_subtitle'>GameBuddy</span>
                                         <h1 className='projects_title'>A Simple Ecommerce Website Built Using Next.js, React and Tailwind CSS</h1>
 
                                         <a href='https://gamebuddy.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
@@ -60,13 +60,13 @@ const Projects = () => {
                             </SwiperSlide>
                             <SwiperSlide data-hash="slide2">
                                 <div className='projects_content'>
-                                    <img src={img2} alt='Project 1' />
+                                    <img src={img2} alt='SwiftShop' />
 
                                     <div>
-                                        <span className='projects_subtitle'>Web</span>
-                                        <h1 className='projects_title'>Modern Website</h1>
+                                        <span className='projects_subtitle'>SwiftShop</span>
+                                        <h1 className='projects_title'>A Simple Ecommerce Website Built Using Reactjs</h1>
 
-                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
+                                        <a href='https://swiftshop-henna.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>
