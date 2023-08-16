@@ -33,6 +33,8 @@ body {
 
 nav {
   display: flex;
+  position: fixed;
+  width: 80%;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -116,11 +118,10 @@ nav ul li a:hover::after {
 
 .bcimage {
   margin-top: 10%;
-  margin-left: 10%;
 }
 
 .bcimage img {
-  width: 80%;
+  width: 70%;
 }
 
 .header-text .bcimage {
@@ -128,7 +129,7 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  width: 60%;
+  width: 200%;
   margin-top: 20%;
   font-size: 20px;
 }
@@ -448,6 +449,10 @@ nav .fas {
   }
   .header-text h1 {
     font-size: 30px;
+  }
+  .bcimage {
+    margin-left: 50px;
+    width: 100%;
   }
   .row {
     display: flex;

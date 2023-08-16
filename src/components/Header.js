@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import img from '../images/virtual-reality.png';
+import img from '../images/ewoma.jpg';
 
 const Header = () => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
