@@ -15,7 +15,7 @@ const Header = () => {
         <div id="header" className="header-container">
             <div className="container">
                 <nav>
-                    <h1>Ewoma</h1>
+                    <h1 className='logo'>Ewoma</h1>
                     <FontAwesomeIcon
                         className={`mobile-menu-icon ${mobileMenuOpen ? 'active' : ''}`}
                         icon={mobileMenuOpen ? faTimes : faBars}
