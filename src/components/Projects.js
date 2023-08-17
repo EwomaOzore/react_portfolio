@@ -8,7 +8,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import img1 from '../images/gamebuddy.jpg';
 import img2 from '../images/swiftshop.jpg';
-import img3 from '../images/project3.jpg';
 
 const Projects = () => {
     return (
@@ -19,7 +18,7 @@ const Projects = () => {
                     <div className='projects_container'>
                         <Swiper
                             spaceBetween={50}
-                            slidesPerView={3}
+                            slidesPerView={2}
                             hashNavigation={{
                                 watchState: true,
                             }}
@@ -37,7 +36,7 @@ const Projects = () => {
                                     spaceBetween: 40,
                                 },
                                 1024: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 2,
                                     spaceBetween: 50,
                                 },
                             }}
@@ -72,7 +71,7 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            <SwiperSlide data-hash="slide3">
+                            {/* <SwiperSlide data-hash="slide3">
                                 <div className='projects_content'>
                                     <img src={img3} alt='Project 1' />
 
@@ -99,7 +98,7 @@ const Projects = () => {
                                         </a>
                                     </div>
                                 </div>
-                            </SwiperSlide>
+                            </SwiperSlide> */}
                         </Swiper>
                     </div>
                 </div>

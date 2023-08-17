@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  background: rgb(0, 0, 0);
-  color: white;
+  background: #fff;
+  color: #000000;
 }
 
 #header {
@@ -24,20 +24,24 @@ body {
 }
 
 .container {
-  padding: 10px 10%;
+  padding: 20px 15%;
 }
 
 .container1 {
   display: flex;
+  align-items: center;
 }
 
 nav {
   display: flex;
   position: fixed;
-  width: 80%;
+  width: 100%;
+  border-bottom: 1px solid;
+  padding: 20px;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  background-color: white;
+  z-index: 2000;
 }
 
 .logo {
@@ -52,7 +56,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
   position: relative;
@@ -123,6 +127,7 @@ nav ul li a:hover::after {
 
 .bcimage img {
   width: 70%;
+  border-radius: 50px;
 }
 
 .header-text .bcimage {
@@ -148,45 +153,34 @@ nav ul li a:hover::after {
 }
 
 #about {
-  color: #ffffff;
+  color: #000000;
 }
 
 .skills img {
-  width: 10%;
+  width: 35px;
   margin-right: 50px;
   margin-bottom: 40px;
 }
 
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.about-col-1 {
-  flex-basis: 45%;
-}
-
-.about-col-1 img {
-  width: 100%;
-  height: 80%;
-  border-radius: 15px;
+.sub-title {
+  margin: 40px 0 40px;
+  font-size: 40px;
+  font-weight: 800;
+  color: #6b1e1e;
 }
 
 .about-col-2 {
-  flex-basis: 50%;
-}
-
-.sub-title {
-  margin: 40px 0 40px;
-  font-size: 60px;
-  font-weight: 500;
-  color: #6b1e1e;
+  display: flex;
 }
 
 .tab-titles {
   display: flex;
   margin: 40px 0 40px;
+  flex-direction: column;
+}
+
+.tab-titles p {
+  margin-bottom: 80px;
 }
 
 .tab-links {
@@ -229,14 +223,12 @@ nav ul li a:hover::after {
 
 .tab-contents.active-tab {
   display: block;
+  padding-left: 10%;
+  padding-top: 40px;
 }
 
 #certifications {
   padding: 30px 0;
-}
-
-.nextjs {
-  background-color: #ffffff;
 }
 
 .certificate-list {
@@ -331,15 +323,19 @@ nav ul li a:hover::after {
   opacity: initial;
 }
 
+.row {
+  display: flex;
+}
+
 .contact-left {
-  flex-basis: 35%;
+  flex-basis: 40%;
 }
 
 .contact-right {
   flex-basis: 60%;
 }
 
-.contact-left p {
+.contact-left h3 {
   margin-top: 30px;
 }
 
@@ -398,15 +394,15 @@ nav .fas {
     display: block;
     cursor: pointer;
     font-size: 24px;
-    color: white;
+    color: #6b1e1e;
   }
   .nav-list {
     display: none;
     position: absolute;
-    top: 70px; /* Adjust the value as needed */
+    top: 60px; /* Adjust the value as needed */
     right: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: wheat;
     text-align: center;
     padding: 20px 0;
     z-index: 1000;

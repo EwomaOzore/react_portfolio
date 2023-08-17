@@ -1,35 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import img from '../images/ewoma.jpg';
 
 const Header = () => {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-    const handleMobileMenuToggle = () => {
-        setMobileMenuOpen(!mobileMenuOpen);
-    };
-
     return (
         <div id="header" className="header-container">
             <div className="container">
-                <nav>
-                    <h1 className='logo'>Ewoma</h1>
-                    <FontAwesomeIcon
-                        className={`mobile-menu-icon ${mobileMenuOpen ? 'active' : ''}`}
-                        icon={mobileMenuOpen ? faTimes : faBars}
-                        onClick={handleMobileMenuToggle}
-                    />
-                    <ul className={`nav-list ${mobileMenuOpen ? 'mobile-open' : ''}`}>
-                        <li><a href="#header">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#certifications">Certifications</a></li>
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <div className={`mobile-overlay ${mobileMenuOpen ? 'open' : ''}`} onClick={handleMobileMenuToggle}></div>
-                </nav>
                 <div className="container1">
                     <div className="header-text">
                         <h1>Hello, I'm <span className="name">Ewoma Ozore</span></h1>
