@@ -8,6 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import img1 from '../images/gamebuddy.jpg';
 import img2 from '../images/swiftshop.jpg';
+import img3 from '../images/hoobank.jpg';
 
 const Projects = () => {
     return (
@@ -59,7 +60,7 @@ const Projects = () => {
                             </SwiperSlide>
                             <SwiperSlide data-hash="slide2">
                                 <div className='projects_content'>
-                                    <img src={img1} alt='Hoobank' />
+                                    <img src={img3} alt='Hoobank' />
 
                                     <div>
                                         <span className='projects_subtitle'>HooBank</span>
