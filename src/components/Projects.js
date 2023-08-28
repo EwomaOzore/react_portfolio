@@ -59,6 +59,20 @@ const Projects = () => {
                             </SwiperSlide>
                             <SwiperSlide data-hash="slide2">
                                 <div className='projects_content'>
+                                    <img src={img1} alt='Hoobank' />
+
+                                    <div>
+                                        <span className='projects_subtitle'>HooBank</span>
+                                        <h1 className='projects_title'>A Website Built Using React.js, Vite and Tailwind CSS modeled from JavaScript Mastery with my additions and improvements</h1>
+
+                                        <a href='https://hoobank-brown-nine.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
+                                            View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
+                                        </a>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide data-hash="slide3">
+                                <div className='projects_content'>
                                     <img src={img2} alt='SwiftShop' />
 
                                     <div>
@@ -71,34 +85,6 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </SwiperSlide>
-                            {/* <SwiperSlide data-hash="slide3">
-                                <div className='projects_content'>
-                                    <img src={img3} alt='Project 1' />
-
-                                    <div>
-                                        <span className='projects_subtitle'>Web</span>
-                                        <h1 className='projects_title'>Modern Website</h1>
-
-                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
-                                            View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </SwiperSlide>
-                            <SwiperSlide data-hash="slide4">
-                                <div className='projects_content'>
-                                    <img src={img3} alt='Project 1' />
-
-                                    <div>
-                                        <span className='projects_subtitle'>Web</span>
-                                        <h1 className='projects_title'>Modern Website</h1>
-
-                                        <a href='#' className='projects_button' target='_blank' rel='noopener noreferrer'>
-                                            View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
-                                        </a>
-                                    </div>
-                                </div>
-                            </SwiperSlide> */}
                         </Swiper>
                     </div>
                 </div>
