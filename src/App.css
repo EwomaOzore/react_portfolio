@@ -386,7 +386,7 @@ nav .fas {
   display: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 700px) {
   .container {
     padding: 10px 10%;
     width: 100%;
@@ -451,25 +451,38 @@ nav .fas {
   }
   .bcimage {
     margin-left: 50px;
+    margin-bottom: 10px;
     width: 100%;
   }
-  .row {
+  .about-col-2 {
+    display: block;
+  }
+  .about-col-2 p {
     display: flex;
-    flex-direction: column;
-    align-content: center;
     align-items: center;
+    text-align: center;
+    margin: 0 10px 50px 15px;
   }
-  .row .about-col-2 {
-    width: 100%;
+  .tab-titles {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
   }
-  .row .about-col-2 .tab-links {
-    font-size: 20px;
-    margin-right: 5%;
+  .tab-contents.active-tab {
+    padding: 0;
+  }
+  .sub-title {
+    display: flex;
+    justify-content: center;
   }
   .skills {
     width: 105%;
+    margin-left: 25px;
   }
   .skills img {
     width: 10%;
+  }
+  .row {
+    display: block;
   }
 }
