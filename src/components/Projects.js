@@ -9,6 +9,8 @@ import 'swiper/css/navigation';
 import img1 from '../images/gamebuddy.jpg';
 import img2 from '../images/swiftshop.jpg';
 import img3 from '../images/hoobank.jpg';
+import img4 from '../images/cp-dashboard.jpg';
+import img5 from '../images/capitalplacement.jpg';
 
 const Projects = () => {
     return (
@@ -81,6 +83,34 @@ const Projects = () => {
                                         <h1 className='projects_title'>A Simple Ecommerce Website Built Using Reactjs</h1>
 
                                         <a href='https://swiftshop-henna.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
+                                            View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
+                                        </a>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide data-hash="slide3">
+                                <div className='projects_content'>
+                                    <img src={img4} alt='SwiftShop' />
+
+                                    <div>
+                                        <span className='projects_subtitle'>London Internship Programme</span>
+                                        <h1 className='projects_title'>A Dashboard For An Internship Programme Built Using Reactjs</h1>
+
+                                        <a href='https://cp-dashboard.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
+                                            View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
+                                        </a>
+                                    </div>
+                                </div>
+                            </SwiperSlide>
+                            <SwiperSlide data-hash="slide3">
+                                <div className='projects_content'>
+                                    <img src={img5} alt='capital-placement' />
+
+                                    <div>
+                                        <span className='projects_subtitle'>Capital Placement</span>
+                                        <h1 className='projects_title'>An Application Form/Questionnaire Built Using Reactjs</h1>
+
+                                        <a href='https://capital-placement-psi.vercel.app/' className='projects_button' target='_blank' rel='noopener noreferrer'>
                                             View Demo <FontAwesomeIcon className='fas' icon={faArrowRight} />
                                         </a>
                                     </div>

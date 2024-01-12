@@ -13,7 +13,7 @@ const Header = () => {
                         <br />
                         <h3>An Aspiring Software Developer</h3>
                         <br />
-                        <a href="/Ewoma Ozore's CV.pdf" download className="btn">Download CV</a>
+                        <a href="/Ewoma Ozore's Curriculum Vitae.pdf" download className="btn">Download CV</a>
                         <div className='ficons'>
                             <a href='https://www.linkedin.com/in/ewomaozore/' target='_blank' rel='noopener noreferrer'>
                                 <FontAwesomeIcon icon={faLinkedin} size="2xl" style={{ color: "#d8b6a4", }} />
